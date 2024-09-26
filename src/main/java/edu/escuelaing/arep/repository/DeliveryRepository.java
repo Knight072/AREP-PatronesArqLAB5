@@ -6,9 +6,5 @@ import org.springframework.data.repository.CrudRepository;
 
 public interface DeliveryRepository extends CrudRepository<Delivery, Long> {
 
-    List<Delivery> findByLastName(String lastName);
-
     Delivery findById(long id);
-
-    String getAddress();
 }

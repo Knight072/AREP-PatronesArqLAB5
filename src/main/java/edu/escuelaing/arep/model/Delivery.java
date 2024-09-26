@@ -20,11 +20,12 @@ public class Delivery {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+    private String userFirstName;
+    private String userLastName;
     private String address;
+    private String productName;
     private String price;
-
+    private String amount;
     private String size;
-
     private String description;
-
 }

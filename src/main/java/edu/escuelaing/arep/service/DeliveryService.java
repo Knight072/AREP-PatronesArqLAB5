@@ -13,6 +13,6 @@ public class DeliveryService {
     }
 
     public String getAddress() {
-        return deliveryRepository.getAddress();
+        return "";
     }
 }
